@@ -18,6 +18,7 @@ module.exports = {
     indent: [2, 2, { SwitchCase: 1 }],
     quotes: [2, 'single'],
     semi: [2, 'always'],
+    'space-before-function-paren': ['error', 'never'],
     'comma-dangle': [2, 'always-multiline'],
     'max-len': [2, {
       code: 120,
