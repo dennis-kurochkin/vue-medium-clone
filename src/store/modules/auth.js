@@ -22,6 +22,9 @@ export default {
     setUser(state, user) {
       state.user = user;
     },
+    clearErrors(state) {
+      state.errors = null;
+    },
   },
   actions: {
     async register({ commit }, credentials) {
